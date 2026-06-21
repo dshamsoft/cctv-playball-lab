@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>玩球直播 · 产品介绍</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #fbfcfd;
+      color: #1d2b36;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.7;
+      padding: 2rem 1.5rem 4rem;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .page-wrap {
+      max-width: 720px;
+      width: 100%;
+    }
+
+    /* 极简标题层级 */
+    h1 {
+      font-size: 2.4rem;
+      font-weight: 450;
+      letter-spacing: -0.01em;
+      margin: 0 0 0.25rem 0;
+      color: #0f1a24;
+      line-height: 1.2;
+    }
+
+    .subhead {
+      font-size: 1rem;
+      color: #647687;
+      margin-bottom: 2.2rem;
+      border-left: 3px solid #bcccd9;
+      padding-left: 1rem;
+      font-weight: 380;
+    }
+
+    h2 {
+      font-size: 1.3rem;
+      font-weight: 450;
+      margin: 2.6rem 0 1rem 0;
+      color: #1d2b36;
+      letter-spacing: 0.01em;
+      border-bottom: 1px solid #e4e9ef;
+      padding-bottom: 0.4rem;
+    }
+
+    h3 {
+      font-size: 1rem;
+      font-weight: 480;
+      margin: 1.6rem 0 0.5rem 0;
+      color: #1f3340;
+    }
+
+    p {
+      margin-bottom: 1.25rem;
+      font-size: 1rem;
+      color: #2a3a48;
+    }
+
+    a {
+      color: #1d5a7d;
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.15s ease, color 0.15s ease;
+    }
+
+    a:hover {
+      border-bottom-color: #1d5a7d;
+      color: #11364b;
+    }
+
+    .card-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin: 1.8rem 0 1.2rem;
+    }
+
+    .card {
+      flex: 1 1 180px;
+      background: #ffffff;
+      border: 1px solid #e9eef3;
+      border-radius: 16px;
+      padding: 1.2rem 1rem 1rem;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.02);
+      transition: box-shadow 0.2s;
+    }
+
+    .card:hover {
+      box-shadow: 0 6px 14px rgba(0, 0, 0, 0.04);
+    }
+
+    .card-title {
+      font-weight: 480;
+      font-size: 1rem;
+      margin-bottom: 0.4rem;
+      color: #0f1a24;
+    }
+
+    .card-desc {
+      font-size: 0.9rem;
+      color: #4b5e6e;
+      line-height: 1.5;
+    }
+
+    .highlight-box {
+      background: #f2f6fa;
+      border-radius: 20px;
+      padding: 1.5rem 1.8rem;
+      margin: 2rem 0 1.8rem;
+      border-left: 4px solid #b0c6d8;
+    }
+
+    .highlight-box p:last-child {
+      margin-bottom: 0;
+    }
+
+    .faq-item {
+      margin: 1.2rem 0;
+    }
+
+    .faq-q {
+      font-weight: 470;
+      color: #14303e;
+      margin-bottom: 0.25rem;
+    }
+
+    .faq-a {
+      color: #425563;
+      margin-left: 0.2rem;
+    }
+
+    .footer-note {
+      margin-top: 3.2rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid #e2e8ef;
+      font-size: 0.85rem;
+      color: #697f90;
+      text-align: left;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 0.5rem;
+    }
+
+    .tag {
+      display: inline-block;
+      background: #eef2f6;
+      color: #1f3d4e;
+      border-radius: 30px;
+      padding: 0.2rem 0.9rem;
+      font-size: 0.75rem;
+      font-weight: 420;
+      letter-spacing: 0.3px;
+      margin-right: 0.3rem;
+    }
+
+    @media (max-width: 540px) {
+      body {
+        padding: 1.5rem 1rem 3rem;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      .card {
+        flex: 1 1 100%;
+      }
+
+      .highlight-box {
+        padding: 1.2rem 1.2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+<div class="page-wrap">
+
+  <h1>玩球直播</h1>
+  <div class="subhead">从一场比赛开始，找回看球的松弛感</div>
+
+  <p>
+    对很多人来说，看比赛不只为了结果，更是一种日常的停顿和陪伴。  
+    <a href="https://cctv-playball.com">玩球直播</a> 正是围绕这种感受搭建的：画面稳定、切换顺手、不堆砌弹窗。  
+    无论是午休时扫一眼比分，还是深夜完整地看一场球，它都在那里，安安静静地播着。
+  </p>
+
+  <h2>核心思路 · 少即是多</h2>
+  <p>
+    我们始终觉得，直播工具应该退到内容背后。所以 <strong>玩球直播</strong> 没有杂乱的横幅、没有自动播放的广告、也没有诱导注册的浮层。  
+    打开页面，选择比赛，剩下的就是画面本身。这种干净，恰恰是很多球迷找了很久的东西。
+  </p>
+
+  <div class="card-group">
+    <div class="card">
+      <div class="card-title">⚡ 低延迟</div>
+      <div class="card-desc">画面与实时进程基本同步，进球提醒比别人快半拍。</div>
+    </div>
+    <div class="card">
+      <div class="card-title">📱 全平台适配</div>
+      <div class="card-desc">电脑、平板、手机都经过专门调整，横竖屏随你习惯。</div>
+    </div>
+    <div class="card">
+      <div class="card-title">🔇 无干扰模式</div>
+      <div class="card-desc">不推送无关通知，不打断观看节奏，专注比赛本身。</div>
+    </div>
+  </div>
+
+  <h2>适合这些场景</h2>
+  <p>
+    通勤路上戴着耳机听解说、跟朋友在群里边看边吐槽、周末下午开着电视当背景音……  
+    <a href="https://cctv-playball.com">玩球直播</a> 的界面不会抢戏，你可以把它放在角落，也可以全屏投入。  
+    甚至只是挂着比分面板，隔几分钟瞟一眼，都不会觉得累赘。
+  </p>
+
+  <div class="highlight-box">
+    <h3 style="margin-top: 0; border-bottom: none; font-weight: 460;">一点使用心得</h3>
+    <p>
+      不必一上来就调最高画质——根据网络环境自动选择反而更流畅。  
+      如果你习惯同时看两场赛况，可以打开浏览器分屏，把直播窗口缩小到一侧，  
+      <strong>玩球直播</strong> 的布局在窄屏下依然清晰。  
+      另外，建议关闭其他标签页的自动播放视频，减少电脑负担，画面会更稳。
+    </p>
+  </div>
+
+  <h2>常见想法 · 简短回答</h2>
+
+  <div class="faq-item">
+    <div class="faq-q">问：需要注册或者登录吗？</div>
+    <div class="faq-a">不用。打开页面直接选比赛，没有账户体系，也不收集个人信息。</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-q">问：手机上看会不会很耗电？</div>
+    <div class="faq-a">正常直播水准。如果担心电量，可以降低分辨率或接上耳机——外放比蓝牙音箱稍省一些。另外 iOS 和 Android 都支持后台音频继续播放。</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-q">问：有回放或者集锦吗？</div>
+    <div class="faq-a">目前主打实时直播，回放功能不在主推范围内。但很多比赛结束后页面仍保留一段时间，可以倒回去看关键回合。</div>
+  </div>
+
+  <p style="margin-top: 1.8rem;">
+    说到底，直播是一种当下的体验。我们能做到的，就是让这份体验少一些干扰，多一些从容。  
+    如果你想试试，可以直接前往 <a href="https://cctv-playball.com">玩球直播</a>，挑一场正在进行的比赛，自己感受一下。
+  </p>
+
+  <div class="footer-note">
+    <span>生活化 · 不打扰 · 够直接</span>
+    <span><span class="tag">无注册</span><span class="tag">低广告</span><span class="tag">多平台</span></span>
+  </div>
+
+</div>
+</body>
+</html>
